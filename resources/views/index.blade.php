@@ -9,6 +9,7 @@
 
                 <div class="panel-body">
                     Главная страница
+					{{ dd(parse_url(getenv("CLEARDB_DATABASE_URL"))) }}
                 </div>
             </div>
         </div>
